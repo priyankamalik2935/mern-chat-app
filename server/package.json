@@ -2,12 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"npx nodemon src/server.js",
-    "dev":"npx nodemon src/server.js"
+    "start": "npx nodemon src/server.js",
+    "dev": "npx nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
     "mongoose": "^9.10.3",
     "morgan": "^1.12.1",
     "multer": "^2.4.0",
+    "nodemon": "^3.1.14",
     "socket.io": "^4.8.4"
   }
 }
